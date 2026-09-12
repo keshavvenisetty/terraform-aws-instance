@@ -5,7 +5,7 @@ variable "ami_id" {
 }
 
 variable "instance_type" {
-    default = "t3.micro"
+    default = "t3.large"
     type = string
     description = "Instance size"
 
